@@ -1,8 +1,4 @@
-<!-- O HTML é o arquivo básico da web, responsãvel pela estruturação do projeto,
-definido por "html" -->
 <!DOCTYPE html>
-
-<!-- "lang" é um atributo global que define a linguagem utilizada no sistema -->
 <html lang="pt-br">
 <head>
     <!-- "charset" informa ao navegador o formato de codificação. Nesse caso, 'UTF-8',
@@ -32,11 +28,8 @@ definido por "html" -->
     <title> Triathlon </title>
 </head>
 <body>
-    <!-- Id's são usadas para definirem atributos específicos do objeto que os recebe -->
     <header id="navbar">
         <nav>
-            <!-- As classes atribuídas são das imagens bootstrap -->
-            <!--"href" diz para onde se vai quando clicar no botão, nesse caso -->
             <a href="#Submodalidades"><i class="bi bi-card-list"> Submodalidades </i></a>
             <a href="#vencedores"><i class="bi bi-trophy-fill"> Vencedores </i></a>
             <a href="#triathlon"><i class="bi bi-hourglass-split"> História </i></a>
@@ -68,15 +61,11 @@ definido por "html" -->
             </p>
         </section>
 
-        <!-- Id's são usadas para definirem atributos específicos do objeto que os recebe -->
         <section id="vencedores">
             <h1> Alguns Campeões da Modalidade nos últimos anos: </h1></br>
 
-            <!-- Classes são usadas para definirem atributos específicos do objeto que os recebe -->
-            <!-- Recomendo uso para o css -->
             <div class="popups">
                 <ul>
-                    <!-- 'onclick' é uma função para o javascript, ativada quando elemento é clicado -->
                     <li> <button onclick="togglePopup()">
                             <i class="bi bi-file-earmark-image"> </i> </button>
                         <p> Alistair Brownlee </br> Triatleta britânico,
@@ -90,9 +79,6 @@ definido por "html" -->
                         </div>
                     </li>
 
-                    <!-- Classes são usadas para definirem atributos específicos do objeto que os recebe -->
-                    <!-- Recomendo uso para o css -->
-                    <!-- 'onclick' é uma função para o javascript, ativada quando elemento é clicado -->
                     <li> <button onclick="togglePopup2()">
                             <i class="bi bi-file-earmark-image"> </i> </button>
                         <p> Gwen Jorgensen </br> Triatleta estadunidense,
@@ -106,9 +92,6 @@ definido por "html" -->
                         </div>
                     </li>
 
-                    <!-- Classes são usadas para definirem atributos específicos do objeto que os recebe -->
-                    <!-- Recomendo uso para o css -->
-                    <!-- 'onclick' é uma função para o javascript, ativada quando elemento é clicado -->
                     <li> <button onclick="togglePopup3()">
                             <i class="bi bi-file-earmark-image"> </i> </button>
                         <p> Kristian Blummenfelt </br> Triatleta norueguês,
@@ -125,12 +108,9 @@ definido por "html" -->
             </div>
         </section>
 
-        <!-- Id's são usadas para definirem atributos específicos do objeto que os recebe -->
         <section id="Submodalidades">
             <h1> Submodalidades do Triathlon: </h1>
 
-            <!-- Classes são usadas para definirem atributos específicos do objeto que os recebe -->
-            <!-- Recomendo uso para o css -->
             <button class="accordion"><i class="bi bi-1-circle-fill"> Spring (Short) </i></button>
             <div class="panel">
                 <p> Considerada ideal para iniciantes no esporte, especialmente por exigir mais
@@ -156,8 +136,6 @@ definido por "html" -->
                 <p> Natação: 300m; Ciclismo: 8Km; Corrida: 2Km. </p>
             </div>
 
-            <!-- Classes são usadas para definirem atributos específicos do objeto que os recebe -->
-            <!-- Recomendo uso para o css -->
             <button class="accordion"><i class="bi bi-4-circle-fill"> Meio IronMan </i></button>
             <div class="panel">
                 <p> Essa modalidade apresenta um percurso intermediário da modalidade Ironman, sendo ideal para atletas
@@ -178,12 +156,9 @@ definido por "html" -->
         </section>
     </main>
 
-    <!-- "src" funciona como o 'href', mostra onde está o script importada -->
     <script src="_js/menu.js"></script>
     <script src="_js/acordeon.js"></script>
     <script src="_js/popUp.js"></script>
-
-    <!-- Este é o script do jquery, usado para a criação dos popUps -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </body>
 </html>
