@@ -1,5 +1,3 @@
-/* 'toggle' é um evendo jquery, que permite trocar e destrocar os atributos 
-    ao clicar no elemento */
 function togglePopup() {
     $(".content").toggle(); }
 function togglePopup2() {
